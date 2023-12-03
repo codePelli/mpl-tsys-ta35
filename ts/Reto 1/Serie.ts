@@ -81,8 +81,8 @@ class Serie implements Entregable{
     }
 
     toString(): string {
-        return "Título: " + this.titulo + ", Creador: " + this.creador + ", Número de Temporadas: " + this.numTemporadas 
-            + ", Entregado: " + this.entregado + ", Género: " + this.genero;
+        return "titulo: " + this.titulo + ", creador: " + this.creador + ", numero de temporadas: " + this.numTemporadas 
+            + ", entregado: " + this.entregado + ", genero: " + this.genero;
     }
 }
 
