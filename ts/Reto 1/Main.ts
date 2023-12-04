@@ -41,10 +41,10 @@ function contarMax(arr: Entregable[], tipo: string): Entregable | undefined {
 
     let maximo = arr[0];
 
-    for (let i = 1; i < arr.length; i++) {
+    for (let x = 1; x < arr.length; x++) {
 
-        if (arr[i].compareTo(maximo) > 0) {
-            maximo = arr[i];
+        if (arr[x].compareTo(maximo) > 0) {
+            maximo = arr[x];
         }
     }
 
